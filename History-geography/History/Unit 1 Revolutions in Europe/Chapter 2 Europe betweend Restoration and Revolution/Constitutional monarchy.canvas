@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"26438eec466024fb","type":"text","text":"King of France","x":-130,"y":-40,"width":180,"height":60,"color":"#000000"},
+		{"id":"5a952c693f281aed","type":"text","text":"Ministers, appointed by the King","x":-202,"y":100,"width":325,"height":60,"color":"1"},
+		{"id":"a15d5f597da96d3d","x":160,"y":-40,"width":226,"height":60,"color":"1","type":"text","text":"has a right of veto on"},
+		{"id":"eaecdfa9a08c7385","x":440,"y":-100,"width":286,"height":180,"color":"2","type":"text","text":"Chamber of Deputies :\n- Elected for 5 years\n- Over 40 years old\n- Property olders\n- Pay tax of 1000 francs"},
+		{"id":"3c7529bbe98f36c6","x":448,"y":130,"width":271,"height":125,"color":"3","type":"text","text":"110 000 electors :\n- Over 30 years old\n- Pay tax of 300 francs"},
+		{"id":"c51de27d789daf1d","x":-446,"y":-62,"width":244,"height":104,"color":"1","type":"text","text":"Chamber of Peers (hereditary), appointed by the King"},
+		{"id":"26bc6a0bedc25249","x":-185,"y":-160,"width":292,"height":60,"color":"1","type":"text","text":"Judges, appointe by the King"}
+	],
+	"edges":[
+		{"id":"03c9ac4ec4914f61","fromNode":"26438eec466024fb","fromSide":"bottom","toNode":"5a952c693f281aed","toSide":"top"},
+		{"id":"f54882d57a26b22f","fromNode":"26438eec466024fb","fromSide":"right","toNode":"a15d5f597da96d3d","toSide":"left"},
+		{"id":"a99ffbc2842cf277","fromNode":"a15d5f597da96d3d","fromSide":"right","toNode":"eaecdfa9a08c7385","toSide":"left"},
+		{"id":"be4aebb353d43416","fromNode":"eaecdfa9a08c7385","fromSide":"bottom","toNode":"3c7529bbe98f36c6","toSide":"top"},
+		{"id":"7180cb04a867a4a5","fromNode":"26438eec466024fb","fromSide":"left","toNode":"c51de27d789daf1d","toSide":"right"},
+		{"id":"908b687abd864ec8","fromNode":"26438eec466024fb","fromSide":"top","toNode":"26bc6a0bedc25249","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"311fa86554e1921a","type":"text","text":"$$\\alpha$$\n$$\\beta$$\n$$\\gamma$$\n$$\\delta$$\n$$\\epsilon$$\n$$\\zeta$$\n$$\\eta$$\n$$\\theta$$\n$$\\iota$$\n$$\\kappa$$\n$$\\lambda$$\n$$\\mu$$\n$$\\nu$$\n$$\\xi$$\n$$\\omicron$$\n$$\\pi$$\n$$\\rho$$\n$$\\sigma$$\n$$\\tau$$\n$$\\upsilon$$\n$$\\phi$$\n$$\\chi$$\n$$\\psi$$\n$$\\omega$$","x":-240,"y":30,"width":240,"height":680,"color":"2"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"f4732fae4edb6e74","type":"text","text":"Tri par insertion","x":-360,"y":0,"width":200,"height":60,"color":"#000000"},
+		{"id":"88845ff69ebe203c","type":"text","text":"```\nVARIABLE\nt : tableau d'entiers\ni : nombre entier\nj : nombre entier\nk : nombre entier\nDEBUT\nj←2\ntant que j<=longueur(t):\n  i←j-1\n  k←t[j]\n  tant que i>0 et que t[i]>k:\n    t[i+1]←t[i]\n    i←i-1\n  fin tant que\n  t[i+1]←k\n  j←j+1\nfin tant que\nFIN\n``` ","x":-432,"y":100,"width":345,"height":514,"color":"1"}
+	],
+	"edges":[
+		{"id":"89be850003d48316","fromNode":"f4732fae4edb6e74","fromSide":"bottom","toNode":"88845ff69ebe203c","toSide":"top"}
+	]
+}

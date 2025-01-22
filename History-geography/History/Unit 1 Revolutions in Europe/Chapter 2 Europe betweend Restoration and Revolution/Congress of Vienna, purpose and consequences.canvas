@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"7c67b1873556463c","x":-500,"y":-80,"width":290,"height":200,"color":"1","type":"text","text":"Congress of Vienna :\n1814-1815\n\nEuropeans statesman decided to reshape Europe and restore peace after Napoleon's fall."},
+		{"id":"46aaf39da7412b07","x":-160,"y":-22,"width":280,"height":85,"color":"2","type":"text","text":"Territorial changes to ensure the balance of power"},
+		{"id":"fdc2a5d9717061e6","x":-160,"y":-160,"width":250,"height":100,"color":"2","type":"text","text":"Restoration  of the former Kings\n-> back to normality"},
+		{"id":"8691de3f43230efa","x":-160,"y":100,"width":272,"height":121,"color":"2","type":"text","text":"Creation of the Holy alliance to counter revolutionary ideas which are considered threats"},
+		{"id":"a746e5b00c5df163","x":200,"y":-54,"width":300,"height":149,"color":"3","type":"text","text":"Conservative status quo is contested by the new liberal and nationalist ideas which spread in the 1820s-1830s in Greece, Poland, Italy, Germany"}
+	],
+	"edges":[
+		{"id":"4badc530d8162e57","fromNode":"7c67b1873556463c","fromSide":"right","toNode":"46aaf39da7412b07","toSide":"left"},
+		{"id":"cb638de8511e1ec9","fromNode":"7c67b1873556463c","fromSide":"right","toNode":"fdc2a5d9717061e6","toSide":"left"},
+		{"id":"14a896ac35357277","fromNode":"7c67b1873556463c","fromSide":"right","toNode":"8691de3f43230efa","toSide":"left"},
+		{"id":"c4bc9de594aa84f2","fromNode":"fdc2a5d9717061e6","fromSide":"right","toNode":"a746e5b00c5df163","toSide":"left"},
+		{"id":"90f00a2099f35098","fromNode":"46aaf39da7412b07","fromSide":"right","toNode":"a746e5b00c5df163","toSide":"left"},
+		{"id":"fe9b682cf8edfb65","fromNode":"8691de3f43230efa","fromSide":"right","toNode":"a746e5b00c5df163","toSide":"left"}
+	]
+}

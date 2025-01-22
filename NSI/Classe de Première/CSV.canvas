@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9bde4aeb37903d6f","x":-140,"y":-40,"width":100,"height":60,"color":"#000000","type":"text","text":"CSV"},
+		{"id":"8173db166ff0ee67","x":-264,"y":80,"width":348,"height":122,"color":"1","type":"text","text":"Le CSV est un fichier texte où les retour à la ligne indiquent un changement de ligne et les virgules indiquent un changement de colonne"},
+		{"id":"351d99e65a1bddce","x":-225,"y":-200,"width":270,"height":100,"color":"1","type":"text","text":"Il est possible d'analyser un fichier CSV en Python avec Pandas"}
+	],
+	"edges":[
+		{"id":"f5f89918455e7510","fromNode":"9bde4aeb37903d6f","fromSide":"bottom","toNode":"8173db166ff0ee67","toSide":"top"},
+		{"id":"b93695fb0667ecfb","fromNode":"9bde4aeb37903d6f","fromSide":"top","toNode":"351d99e65a1bddce","toSide":"bottom"}
+	]
+}

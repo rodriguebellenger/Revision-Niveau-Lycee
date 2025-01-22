@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"f38f6953e0697a88","x":-160,"y":-100,"width":120,"height":60,"color":"#000000","type":"text","text":"Mole"},
+		{"id":"030da4df44e3d249","x":-252,"y":0,"width":303,"height":159,"color":"1","type":"text","text":"Une mole est une certaine quantité d'une entité chimique (atomes, molécules, ions, etc). C'est en quelque sorte des paquets de même élèments."},
+		{"id":"40936c57df246769","x":-225,"y":200,"width":250,"height":165,"color":"2","type":"text","text":"Une mole contient :\n$$6,02214076*10^{23}$$\nélèments (souvent arrondie à 6,02)."},
+		{"id":"d16025b73f1eb09d","x":-229,"y":400,"width":256,"height":114,"color":"3","type":"text","text":"Ce nombre s'appelle la constante d'Avogadro :\n$$N_A$$"},
+		{"id":"691f9471ed9366fe","x":120,"y":-100,"width":180,"height":60,"color":"1","type":"text","text":"Masse molaire"},
+		{"id":"3440f3f61a3b711b","x":360,"y":-153,"width":250,"height":167,"color":"2","type":"text","text":"C'est la masse d'une mole d'une entité chimique, avec comme unité usuelle :\n$$g*mol^{-1}$$"},
+		{"id":"9b4a0d84d434da86","x":675,"y":-99,"width":265,"height":60,"color":"3","type":"text","text":"Masse molaire moléculaire"},
+		{"id":"012ace1da0aa1582","x":670,"y":-288,"width":270,"height":93,"color":"3","type":"text","text":"Elle tient compte de l'abondance naturelle des isotopes de l'élèment"},
+		{"id":"b4c85cbe8972bcb0","x":1020,"y":-320,"width":417,"height":157,"color":"4","type":"text","text":"$$\\text{Chlore 35 }: 75,77\\%$$\n$$\\text{Chlore 37 }: 24,23\\%$$\n$$M_{Ch}=\\frac{75,77}{100}*35+\\frac{24,23}{100}*37=35,5\\hspace{1mm}g*mol^{-1}$$\n"},
+		{"id":"b1558a9588439391","x":1020,"y":-117,"width":299,"height":97,"color":"4","type":"text","text":"C'est l'addition de la masse molaire de chacun des atomes composant la molécule"},
+		{"id":"9e7a567c6f849d1a","x":675,"y":36,"width":250,"height":60,"color":"3","type":"text","text":"Masse molaire ionique"},
+		{"id":"a1078ebd528dd6e0","x":1012,"y":4,"width":315,"height":124,"color":"4","type":"text","text":"Puisque la masse d'un électron est négligeable, on considère qu'un atome et son ion ont la même masse molaire"},
+		{"id":"a2f262d45f651067","x":170,"y":128,"width":380,"height":91,"color":"#000000","type":"text","text":"Le nombre de mole se note : n\nLe nombre exacte d'élèment se note : N\nLa masse molaire se note : M"},
+		{"id":"9b552595c410ea90","x":-210,"y":-213,"width":220,"height":60,"color":"1","type":"text","text":"Quantité de matière"},
+		{"id":"5d15fc76abe97f82","x":-336,"y":-380,"width":473,"height":105,"color":"2","type":"text","text":"$$m=n*M$$\n$$\\text{masse de l'échantillon}=\\text{nombre de moles}*\\text{masse d'une mole}$$"},
+		{"id":"ecbd3fb91fe47ed3","x":-202,"y":-520,"width":205,"height":100,"color":"3","type":"text","text":"m en g\nn en mole\nM en g par mole"}
+	],
+	"edges":[
+		{"id":"0ff1b9830796ffe0","fromNode":"f38f6953e0697a88","fromSide":"bottom","toNode":"030da4df44e3d249","toSide":"top"},
+		{"id":"60e289c6ea038354","fromNode":"030da4df44e3d249","fromSide":"bottom","toNode":"40936c57df246769","toSide":"top"},
+		{"id":"67a3c9e3ba04a324","fromNode":"40936c57df246769","fromSide":"bottom","toNode":"d16025b73f1eb09d","toSide":"top"},
+		{"id":"8c31eac343331b49","fromNode":"f38f6953e0697a88","fromSide":"right","toNode":"691f9471ed9366fe","toSide":"left"},
+		{"id":"60924138e0218a06","fromNode":"691f9471ed9366fe","fromSide":"right","toNode":"3440f3f61a3b711b","toSide":"left"},
+		{"id":"39b8ad7a25203df6","fromNode":"3440f3f61a3b711b","fromSide":"right","toNode":"012ace1da0aa1582","toSide":"left"},
+		{"id":"ec8ffcc4baf21849","fromNode":"012ace1da0aa1582","fromSide":"right","toNode":"b4c85cbe8972bcb0","toSide":"left"},
+		{"id":"7cfc2b6e86431854","fromNode":"3440f3f61a3b711b","fromSide":"right","toNode":"9b4a0d84d434da86","toSide":"left"},
+		{"id":"ff310e25fd922b1d","fromNode":"9b4a0d84d434da86","fromSide":"right","toNode":"b1558a9588439391","toSide":"left"},
+		{"id":"8808dc55acc24f2b","fromNode":"3440f3f61a3b711b","fromSide":"right","toNode":"9e7a567c6f849d1a","toSide":"left"},
+		{"id":"83b7b39d028fd6ca","fromNode":"9e7a567c6f849d1a","fromSide":"right","toNode":"a1078ebd528dd6e0","toSide":"left"},
+		{"id":"a3d66c84f34f9202","fromNode":"f38f6953e0697a88","fromSide":"top","toNode":"9b552595c410ea90","toSide":"bottom"},
+		{"id":"022d82276d579f17","fromNode":"9b552595c410ea90","fromSide":"top","toNode":"5d15fc76abe97f82","toSide":"bottom"},
+		{"id":"29a2fa882374f34e","fromNode":"5d15fc76abe97f82","fromSide":"top","toNode":"ecbd3fb91fe47ed3","toSide":"bottom"}
+	]
+}

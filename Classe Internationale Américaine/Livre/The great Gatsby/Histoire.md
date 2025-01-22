@@ -1,0 +1,1 @@
+Nick Carraway, the story's narrator, move in New York to become a broker

@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"76bf41b1e5a00c4b","type":"text","text":"Judiciary","x":-557,"y":-200,"width":140,"height":60,"color":"#000000"},
+		{"id":"c24f8014e121e4cc","type":"text","text":"Executive","x":-317,"y":-200,"width":143,"height":60,"color":"#000000"},
+		{"id":"44cea1595f609c19","type":"text","text":"Ministers","x":-319,"y":40,"width":147,"height":60,"color":"2"},
+		{"id":"99a6d29086cb48f0","type":"text","text":"Judges","x":-557,"y":40,"width":140,"height":60,"color":"2"},
+		{"id":"93c32ef8e570e21b","type":"text","text":"King\nHas a right of Veto on the Assembly","x":-353,"y":-90,"width":215,"height":100,"color":"1"},
+		{"id":"1ad14af60f2474d4","type":"text","text":"Elector (50 000 men)","x":-59,"y":40,"width":226,"height":60,"color":"2"},
+		{"id":"27787779eb329232","type":"text","text":"Legislative","x":-26,"y":-200,"width":160,"height":60,"color":"#000000"},
+		{"id":"b0d9ec3091ee5c8e","type":"text","text":"National assembly (745 members)\nControl the King and the Ministers","x":-109,"y":-80,"width":326,"height":80,"color":"1"},
+		{"id":"c55e045e72dbc4f0","type":"text","text":"Active citizens : Entitled to vote ; about 4 million ou of 28 million","x":-487,"y":180,"width":605,"height":60,"color":"3"},
+		{"id":"c50165debd0a5f91","type":"text","text":"Passive citizens : No voting rights ; women, children and youth below 25","x":-487,"y":260,"width":611,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"b82905230c594f0b","fromNode":"1ad14af60f2474d4","fromSide":"top","toNode":"b0d9ec3091ee5c8e","toSide":"bottom"},
+		{"id":"b5d7b0b895573b68","fromNode":"c55e045e72dbc4f0","fromSide":"top","toNode":"99a6d29086cb48f0","toSide":"bottom"},
+		{"id":"394ce6e1f17d0e8d","fromNode":"c55e045e72dbc4f0","fromSide":"top","toNode":"1ad14af60f2474d4","toSide":"bottom"},
+		{"id":"77dfdce753ee143a","fromNode":"c24f8014e121e4cc","fromSide":"bottom","toNode":"93c32ef8e570e21b","toSide":"top"},
+		{"id":"4929fd5dbc0a59b0","fromNode":"93c32ef8e570e21b","fromSide":"bottom","toNode":"44cea1595f609c19","toSide":"top"},
+		{"id":"9c1f8e3698c72c3b","fromNode":"76bf41b1e5a00c4b","fromSide":"bottom","toNode":"99a6d29086cb48f0","toSide":"top"}
+	]
+}

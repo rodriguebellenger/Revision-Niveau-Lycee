@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"5e5cafe44140718f","x":-140,"y":-80,"width":220,"height":60,"color":"#000000","type":"text","text":"Système d'équation"},
+		{"id":"577a0339a8d6b0fb","x":-175,"y":40,"width":291,"height":124,"color":"1","type":"text","text":"Un système d'équation pour lequel il faut trouver les valeurs qui respectent chaque égalité ou inégalité."},
+		{"id":"ed5d0064072cf5ec","x":-226,"y":220,"width":393,"height":220,"color":"2","type":"text","text":"$$2x-y=0\\hspace{1mm}\\land\\hspace{1mm}3x-4y=-5$$\n$$\\text{Système : }\\begin{cases}2x-y=0\\\\3x-4y=-5\\end{cases}$$$$\\text{Le couple }(1, 2)\\text{ est solution du système d'équation.}$$\n$$\\begin{cases}2*1-2=2-2=0\\\\3*1-4*2=3-8=-5\\end{cases}$$"},
+		{"id":"34df641d6104b9c5","x":180,"y":-80,"width":145,"height":60,"color":"1","type":"text","text":"Résolution"},
+		{"id":"8866ea34ab93199b","x":374,"y":10,"width":250,"height":60,"color":"2","type":"text","text":"Combinaison linéaire"},
+		{"id":"d3526661382d4bdf","x":1240,"y":-98,"width":452,"height":96,"color":"3","type":"text","text":"Pour trouver le couple solution, il suffit de dessiner les droites dans un repère, puis de lire graphiquement les coordonnées de l'intersection "},
+		{"id":"e5e0b035564a3556","x":700,"y":-674,"width":500,"height":574,"color":"3","type":"text","text":"$$\\text{On a le système : }\\begin{cases}(1) : 3x+2y=0\\\\(2) : x-4y=14\\end{cases}$$\nOn trouve l'inconnue la plus facile à isoler. Ici, c'est le x de la deuxième équation :\n$$(1) : x=14+y4$$\nOn peut ensuite substituer le x de l'autre équation par notre nouvelle définition :\n$$\\begin{align}(2) : 3(14+4y)+2y=0\\\\42+12y+2y=0\\\\14y=-42\\\\y=-3\\end{align}$$\nIl ne reste plus qu'à résoudre la deuxième équation afin de trouver x :\n$$\\begin{align}(1) : x=14+(-3)*4\\\\x=14-12\\\\x=2\\end{align}$$\nNous pouvons en conclure que le couple de solution est :\n$$S={(2;-3)}$$"},
+		{"id":"15708ae41aac54d3","x":700,"y":10,"width":508,"height":722,"color":"3","type":"text","text":"$$\\text{On a le système : }\\begin{cases}(1) : 3x+2y=11\\\\(2) : 4x-5y=-16\\end{cases}$$\nNous allons utiliser la combinaison linéaire afin de faire disparaître les x des équations.\nPour cela, nous multiplions les équations afin que les x aient le même quotient : \n$$\\begin{align}4*(1) : 4*3x+4*2y=11*4\\\\12x+8y=44\\\\\\\\3*(2) : 3*4x+3*(-5)x=3*(-16)\\\\12x-15y=-48\\end{align}$$\nNous pouvons ensuite soustraire les équation l'une de l'autre afin de supprimer les x :\n$$\\begin{align}12x-12x+8y+15y=44+48\\\\23y=92\\\\y=4\\end{align}$$\nMaintenant que nous avons trouvé y, nous pouvons le substituer par ça valeur dans l'une des équations afin de trouver x :\n$$\\begin{align}(1) : 3x+2*4=11\\\\3x+8=11\\\\3x=3\\\\x=1\\end{align}$$\nNous pouvons en conclure que le couple de solution est :\n$$S={(1;4)}$$"},
+		{"id":"0bca091b2f37e41f","x":432,"y":-80,"width":192,"height":60,"color":"2","type":"text","text":"Graphiquement"},
+		{"id":"216db4280a040f2c","x":466,"y":-160,"width":158,"height":60,"color":"2","type":"text","text":"Substitution"},
+		{"id":"8392cd600861f14f","x":170,"y":-190,"width":165,"height":60,"color":"2","type":"text","text":"Cas spéciaux"},
+		{"id":"213de3338a4b32d6","x":-18,"y":-360,"width":542,"height":127,"color":"3","type":"text","text":"Les équations peuvent se réduire à la forme mx+p=y.\n$$m=m'\\hspace{1mm}\\land\\hspace{1mm}p\\neq p'\\rightarrow S=\\{\\varnothing\\}$$\n$$m=m'\\hspace{1mm}\\land\\hspace{1mm}p=p'\\rightarrow \\text{Il y a une infinité de couple xy qui respecte mx+p=y}$$"}
+	],
+	"edges":[
+		{"id":"554c698c7f050bff","fromNode":"5e5cafe44140718f","fromSide":"bottom","toNode":"577a0339a8d6b0fb","toSide":"top"},
+		{"id":"1e367b7064474fec","fromNode":"577a0339a8d6b0fb","fromSide":"bottom","toNode":"ed5d0064072cf5ec","toSide":"top"},
+		{"id":"cf2ce6166f509417","fromNode":"5e5cafe44140718f","fromSide":"right","toNode":"34df641d6104b9c5","toSide":"left"},
+		{"id":"048dae0783cfb482","fromNode":"34df641d6104b9c5","fromSide":"right","toNode":"216db4280a040f2c","toSide":"left"},
+		{"id":"200338f6d30ff18c","fromNode":"216db4280a040f2c","fromSide":"right","toNode":"e5e0b035564a3556","toSide":"left"},
+		{"id":"6b8954b8b7eebc72","fromNode":"34df641d6104b9c5","fromSide":"right","toNode":"8866ea34ab93199b","toSide":"left"},
+		{"id":"0a84061ef9d839b7","fromNode":"8866ea34ab93199b","fromSide":"right","toNode":"15708ae41aac54d3","toSide":"left"},
+		{"id":"2bead453f3b673b6","fromNode":"34df641d6104b9c5","fromSide":"right","toNode":"0bca091b2f37e41f","toSide":"left"},
+		{"id":"f6c38396f12ec2c4","fromNode":"0bca091b2f37e41f","fromSide":"right","toNode":"d3526661382d4bdf","toSide":"left"},
+		{"id":"641269488b55e4af","fromNode":"34df641d6104b9c5","fromSide":"top","toNode":"8392cd600861f14f","toSide":"bottom"},
+		{"id":"69264c896252565e","fromNode":"8392cd600861f14f","fromSide":"top","toNode":"213de3338a4b32d6","toSide":"bottom"}
+	]
+}

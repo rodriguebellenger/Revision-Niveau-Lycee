@@ -1,0 +1,6 @@
+The first presidential election were held on December 10, 1848. It named Louis Napoléon Bonaparte as his first president (and the only one). He was elected with 74% of the vote, but found himself fighting with the National Assembly.
+On May 31 ,1850, a law was passed, which reduced the universal suffrage by requiring of the citizens to have lived in a commune for more than 3 years before being able to vote. It meant that one third of the previous electorate couldn't vote anymore (mostly casual and days laborer who had to move in town to town to find jobs).
+LNB wasn't happy about the fact that he had to leave the office in 1852 and couldn't be reelected due to the Constitution (produced in November 1848), so he tried to reform it but failed. That is the reason why he decided to do a coup d'Etat : 
+The 2 of December 1851, his coup enabled him to dissolve the assembly
+He then held a plebiscite in in November 1852, where the French population authorized him (with an dramatically large majority) to create a new Constitution, granting him dictatorial power.
+It meant that the Second Republic was officially abolished the 2 of December 1852 and officially made him Napoleon III, Emperor of the second Empire.

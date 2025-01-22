@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"65bad9c86d5dcad5","x":-120,"y":40,"width":250,"height":60,"color":"#000000","type":"text","text":"Onde mécanique"},
+		{"id":"2fa986596f63e2f9","x":-159,"y":140,"width":329,"height":172,"color":"1","type":"text","text":"Def : \nPhénoméne de propagation d'une perturbation mécanique dans un milieu matériel élastique sans transport de matière mais avec transfert d'énergie."},
+		{"id":"c24526adbf9f46de","x":-227,"y":380,"width":465,"height":160,"color":"2","type":"text","text":"Remarque : \n- besoin d'un milieu pour se propager\n- milieu élastique : reprend sa forme initiale\n- progressive : transmission de proche en proche"},
+		{"id":"7958fd36b316d14a","x":238,"y":40,"width":196,"height":60,"color":"1","type":"text","text":"Caractéristique"},
+		{"id":"af0101ea880da569","x":480,"y":-105,"width":257,"height":114,"color":"2","type":"text","text":"Elongation : \nHauteur d'un point par rapport au niveau moyen"},
+		{"id":"aafbe0a9407f9637","x":480,"y":29,"width":250,"height":82,"color":"2","type":"text","text":"Amplitude : \nElongation maximum"},
+		{"id":"ce3320b5b7713209","x":480,"y":140,"width":303,"height":128,"color":"2","type":"text","text":"Célérité : \nLa vitesse de propagation de l'onde entre deu points.\n$v=\\frac{d}{\\Delta t}=\\frac{d}{t_2-t_1}=\\frac{d}{\\tau}$ "},
+		{"id":"4553dc839609eaba","x":840,"y":137,"width":348,"height":134,"color":"3","type":"text","text":"La célérité depend des caractéristiques du milieu : densité, température, ... et de la nature de l'onde : transversale, longitudinale, ..."},
+		{"id":"201fa82bd82b1594","x":-314,"y":40,"width":155,"height":60,"color":"1","type":"text","text":"Périodique"}
+	],
+	"edges":[
+		{"id":"e500ba52c078e2b4","fromNode":"65bad9c86d5dcad5","fromSide":"bottom","toNode":"2fa986596f63e2f9","toSide":"top"},
+		{"id":"4aad31b03cbbd701","fromNode":"2fa986596f63e2f9","fromSide":"bottom","toNode":"c24526adbf9f46de","toSide":"top"},
+		{"id":"8ad1afa897c9409a","fromNode":"65bad9c86d5dcad5","fromSide":"right","toNode":"7958fd36b316d14a","toSide":"left"},
+		{"id":"a4814ee8836edbcb","fromNode":"7958fd36b316d14a","fromSide":"right","toNode":"af0101ea880da569","toSide":"left"},
+		{"id":"98b01d0ae64396b7","fromNode":"7958fd36b316d14a","fromSide":"right","toNode":"aafbe0a9407f9637","toSide":"left"},
+		{"id":"6ee4178e6a7fa689","fromNode":"7958fd36b316d14a","fromSide":"right","toNode":"ce3320b5b7713209","toSide":"left"},
+		{"id":"6bae67f2a4c0edb3","fromNode":"ce3320b5b7713209","fromSide":"right","toNode":"4553dc839609eaba","toSide":"left"},
+		{"id":"5516908a9332e5fc","fromNode":"65bad9c86d5dcad5","fromSide":"left","toNode":"201fa82bd82b1594","toSide":"right"}
+	]
+}

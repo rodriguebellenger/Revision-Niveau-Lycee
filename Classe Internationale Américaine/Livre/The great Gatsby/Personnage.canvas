@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"0a779c3a5d582eb7","type":"text","text":"Nick Carraway","x":-600,"y":-160,"width":180,"height":60,"color":"#000000"},
+		{"id":"60792ddda89ebcb4","type":"text","text":"Daisy's cousin","x":-688,"y":0,"width":176,"height":60,"color":"1"},
+		{"id":"50fb0efd45c1be5e","type":"text","text":"Gatsby's neighbour","x":-480,"y":0,"width":213,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"bba37cf68ef519e9","fromNode":"0a779c3a5d582eb7","fromSide":"bottom","toNode":"60792ddda89ebcb4","toSide":"top"},
+		{"id":"872a70a7e334e33f","fromNode":"0a779c3a5d582eb7","fromSide":"bottom","toNode":"50fb0efd45c1be5e","toSide":"top"}
+	]
+}

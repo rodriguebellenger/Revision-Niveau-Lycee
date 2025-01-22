@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"19c02e33d885cd43","type":"text","text":"Oxydo-réduction","x":-200,"y":-40,"width":200,"height":60,"color":"#000000"},
+		{"id":"25db59e1fca148c3","type":"text","text":"Oxydant : \nEspèce chimique capable de gagner un ou plusieurs électrons","x":-360,"y":100,"width":250,"height":119,"color":"1"},
+		{"id":"6c8b3e210a6ae3c2","type":"text","text":"Réducteur : \nEspèce chimique capable de perdre un ou plusieurs électrons","x":-80,"y":100,"width":250,"height":119,"color":"1"},
+		{"id":"65c84bf38655f8e8","type":"text","text":"Couple redox","x":-191,"y":300,"width":183,"height":50,"color":"2"},
+		{"id":"cc431ca7fcb8d890","type":"text","text":"Ox/Red : \nCouple conjuguée (l'Ox se transforme en le Red et inversement)","x":-281,"y":400,"width":364,"height":100,"color":"3"},
+		{"id":"56a7ba82ed04356d","type":"text","text":"Demi-équation","x":-191,"y":560,"width":185,"height":50,"color":"4"},
+		{"id":"14e00404afa233c3","type":"text","text":"Transformation de l'un en l'autre de la forme $Ox+n*e⁻=Red$","x":-223,"y":660,"width":250,"height":105,"color":"5"},
+		{"id":"e2b88c1551d918d4","type":"text","text":"Transfers d'électron d'un réducteur d'un couple à l'oxydant d'un autre couple. L'oxydant se réduit en son réducteur conjugué et le réducteur s'oxyde en son oxydant conjugué","x":170,"y":-112,"width":293,"height":205,"color":"1"},
+		{"id":"39b34052db6add8b","type":"text","text":"Pour écrire l'équation compléte, on additionne chaque côté de chaque demi-équation, on équilibre et on supprime les électrons","x":-574,"y":-84,"width":293,"height":150,"color":"1"},
+		{"id":"5dcbe7a35dab593f","type":"text","text":"   $Cu^{2+}+2*e⁻=Cu$\n\\+  $Fe=Fe^{2+}+2*e⁻$ \n$=Fe+Cu^{2+}+2*e⁻\\rightarrow Fe^{2+}+Cu+2*e⁻$\n$=Fe+Cu^{2+}\\rightarrow Fe^{2+}+Cu$","x":-980,"y":-176,"width":364,"height":136,"color":"2"},
+		{"id":"5c60b46702b08beb","x":-325,"y":820,"width":455,"height":490,"color":"6","type":"text","text":"Méthode : \nOn pose la demi-équation a équilibré.\n$Cr_2O_7^{2-}(aq)+n*e⁻=Cr^{3+}(aq)$ \n\nOn vérifie la conservation des éléments autre que l'oxygène et l'hydrogéne.\n$Cr_2O_7^{2-}(aq)+n*e⁻=2Cr^{3+}(aq)$ \n\nOn vérifie la conservation de l'oxygène avec des molécules d'$H_2O$.\n$Cr_2O_7^{2-}(aq)+n*e⁻=2Cr^{3+}(aq)+7H_2O(l)$ \n\nOn vérifie la conservation de l'hydrogène avec des ions $H⁺$.\n$Cr_2O_7^{2-}(aq)+n*e⁻+14H⁺(aq)=2Cr^{3+}(aq)+7H_2O(l)$ \n\nOn vérifie l'équilibre des charges.\n$-2-n+14=2*3\\rightarrow n=6$\n$Cr_2O_7^{2-}(aq)+6*e⁻+14H⁺(aq)=2Cr^{3+}(aq)+7H_2O(l)$ "}
+	],
+	"edges":[
+		{"id":"b8e984843ef85e33","fromNode":"19c02e33d885cd43","fromSide":"bottom","toNode":"25db59e1fca148c3","toSide":"top"},
+		{"id":"d2b0ff14660eae0e","fromNode":"19c02e33d885cd43","fromSide":"bottom","toNode":"6c8b3e210a6ae3c2","toSide":"top"},
+		{"id":"a4814b9b94efb35b","fromNode":"25db59e1fca148c3","fromSide":"bottom","toNode":"65c84bf38655f8e8","toSide":"top"},
+		{"id":"0d8de5cbbca2d3f7","fromNode":"6c8b3e210a6ae3c2","fromSide":"bottom","toNode":"65c84bf38655f8e8","toSide":"top"},
+		{"id":"5a67c4d3f2e78f70","fromNode":"65c84bf38655f8e8","fromSide":"bottom","toNode":"cc431ca7fcb8d890","toSide":"top"},
+		{"id":"0528da8926163a0f","fromNode":"cc431ca7fcb8d890","fromSide":"bottom","toNode":"56a7ba82ed04356d","toSide":"top"},
+		{"id":"f46b1266a1cffc9d","fromNode":"56a7ba82ed04356d","fromSide":"bottom","toNode":"14e00404afa233c3","toSide":"top"},
+		{"id":"df142c1b0b37926f","fromNode":"19c02e33d885cd43","fromSide":"right","toNode":"e2b88c1551d918d4","toSide":"left"},
+		{"id":"1aedde6961814155","fromNode":"19c02e33d885cd43","fromSide":"left","toNode":"39b34052db6add8b","toSide":"right"},
+		{"id":"0e7b78732225fa84","fromNode":"39b34052db6add8b","fromSide":"left","toNode":"5dcbe7a35dab593f","toSide":"right"},
+		{"id":"777b5acafa3eea3e","fromNode":"14e00404afa233c3","fromSide":"bottom","toNode":"5c60b46702b08beb","toSide":"top"}
+	]
+}

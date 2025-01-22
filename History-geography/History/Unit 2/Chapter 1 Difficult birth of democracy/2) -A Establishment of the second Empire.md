@@ -1,0 +1,1 @@
+During the year 1851-1852, LNB promulgated a new Constitution from which he was the keystone, with the approval of the French people, through a plebiscite. It enabled to show his reign as strong, yet, approved democratically.

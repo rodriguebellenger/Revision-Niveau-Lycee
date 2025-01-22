@@ -1,0 +1,2 @@
+- Nick lives in New York, Long Ilsand, West Egg, next to Gatsby's mansion
+- 

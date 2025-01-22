@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"31f3d94b44a6dec1","type":"text","text":"Multiples et diviseurs","x":-146,"y":0,"width":240,"height":60,"color":"#000000"},
+		{"id":"781e52b2614dcae5","type":"text","text":"$$a\\text{ multiple de b}\\iff{a=kb}$$","x":-286,"y":140,"width":250,"height":82,"color":"1"},
+		{"id":"85a4422bb8d0b051","type":"text","text":"$$b\\text{ diviseur de a}\\iff{b=\\frac{a}{k}}$$","x":-6,"y":140,"width":250,"height":82,"color":"1"},
+		{"id":"fed8aeb2a3a810bf","type":"text","text":"$$x_{\\text{ multiple de a}} + y_{\\text{ multiple de a}} = z_{\\text{ multiple de a}}$$","x":-360,"y":300,"width":324,"height":82,"color":"2"},
+		{"id":"1705afbef31ed95f","type":"text","text":"Pair : \n$$\\text{Multiple de 2}\\iff2k$$","x":-286,"y":-180,"width":250,"height":85,"color":"1"},
+		{"id":"64e77a73c0b6a7f1","type":"text","text":"Impair : \n$$\\text{Non pair}\\iff2k+1$$","x":-6,"y":-180,"width":250,"height":85,"color":"1"},
+		{"id":"05eaabf530c5706c","type":"text","text":"Pair+pair=pair\nPair+impair=impair\nImpair+impair=pair\n\nPair*x=pair\nImpair²=impair","x":-141,"y":-440,"width":231,"height":160,"color":"2"},
+		{"id":"1b5bfae06387b37e","type":"text","text":"Nombre premier","x":180,"y":-1,"width":206,"height":60,"color":"1"},
+		{"id":"5310de3101f5f2ab","type":"text","text":"N'a que 2 diviseurs : 1 et lui-même","x":444,"y":75,"width":250,"height":65,"color":"2"},
+		{"id":"5a92e01ffaa5f99e","type":"text","text":"2, 3, 5, 7, 11, 13, 17, 19, 23, ...","x":744,"y":77,"width":286,"height":60,"color":"3"},
+		{"id":"1fd3d8d749438239","type":"text","text":"1 n'est pas premier car il n'a qu'un diviseur","x":1084,"y":77,"width":250,"height":61,"color":"4"},
+		{"id":"afb565b3b49e9728","type":"text","text":"Tous les nombres sont décomposable en produit de facteur premier","x":445,"y":-97,"width":274,"height":97,"color":"2"},
+		{"id":"92fe570be0e38ab9","type":"text","text":"Pour le vérifier, il suffit de tester tout les nombres premiers inférieurs à sa racine carrée dans l'ordre croissant","x":420,"y":181,"width":299,"height":120,"color":"3"},
+		{"id":"ff2ecfc7a4ac5c1c","type":"text","text":"Algorithme : \n\n```\nx = nombre à décomposer\nwhile x != 1:\n\tdivision = x/nombre_premier[index]\n\tif division != int(division):\n\t\tif int(x) not in nombre_premier:\n\t\t\tindex += 1\n\t\telse:\n\t\t\tdecomposition.append(int(x))\n\telse:\n\t\tdecomposition.append(nombre_premier[index])\n\t\tx = division\n\tif nombre_premier[index] > math.sqrt(i):\n\t\tif i not in nombre_premier:\n\t\t\tnombre_premier.append(i)\n\t\tbreak \n```","x":311,"y":-674,"width":609,"height":469,"color":"4"},
+		{"id":"c962511c75aa5e11","type":"text","text":"300=2\\*2\\*3\\*5\\*5","x":762,"y":-78,"width":250,"height":60,"color":"3"},
+		{"id":"ff6db7e679ad9a50","type":"text","text":"La décomposition de chaque nombre est unique, c'est comme son ADN","x":1084,"y":-116,"width":250,"height":137,"color":"4"}
+	],
+	"edges":[
+		{"id":"ab5cff5f5dc7d3b2","fromNode":"31f3d94b44a6dec1","fromSide":"bottom","toNode":"781e52b2614dcae5","toSide":"top"},
+		{"id":"96117f94249bc9dd","fromNode":"31f3d94b44a6dec1","fromSide":"bottom","toNode":"85a4422bb8d0b051","toSide":"top"},
+		{"id":"67e5ee698cbf7e42","fromNode":"781e52b2614dcae5","fromSide":"bottom","toNode":"fed8aeb2a3a810bf","toSide":"top"},
+		{"id":"377e704c880945a7","fromNode":"31f3d94b44a6dec1","fromSide":"top","toNode":"1705afbef31ed95f","toSide":"bottom"},
+		{"id":"d0d929ff77ffc782","fromNode":"31f3d94b44a6dec1","fromSide":"top","toNode":"64e77a73c0b6a7f1","toSide":"bottom"},
+		{"id":"f310fbb8f278f05b","fromNode":"1705afbef31ed95f","fromSide":"top","toNode":"05eaabf530c5706c","toSide":"bottom"},
+		{"id":"e990a83f403c526f","fromNode":"64e77a73c0b6a7f1","fromSide":"top","toNode":"05eaabf530c5706c","toSide":"bottom"},
+		{"id":"22eb3b7092ee9747","fromNode":"31f3d94b44a6dec1","fromSide":"right","toNode":"1b5bfae06387b37e","toSide":"left"},
+		{"id":"37f2eb4dec10bf49","fromNode":"1b5bfae06387b37e","fromSide":"right","toNode":"5310de3101f5f2ab","toSide":"left"},
+		{"id":"1da3110d35b1c77c","fromNode":"5310de3101f5f2ab","fromSide":"right","toNode":"5a92e01ffaa5f99e","toSide":"left"},
+		{"id":"0d4f1c365def8ec0","fromNode":"5a92e01ffaa5f99e","fromSide":"right","toNode":"1fd3d8d749438239","toSide":"left"},
+		{"id":"b7bf8d2d1f70f20f","fromNode":"5310de3101f5f2ab","fromSide":"bottom","toNode":"92fe570be0e38ab9","toSide":"top"},
+		{"id":"cfeecd73770bb090","fromNode":"1b5bfae06387b37e","fromSide":"right","toNode":"afb565b3b49e9728","toSide":"left"},
+		{"id":"cc250d9cb5b09134","fromNode":"afb565b3b49e9728","fromSide":"right","toNode":"c962511c75aa5e11","toSide":"left"},
+		{"id":"b84e3f3b4c82b52a","fromNode":"afb565b3b49e9728","fromSide":"top","toNode":"ff2ecfc7a4ac5c1c","toSide":"bottom"},
+		{"id":"c4257af9018d2bc5","fromNode":"c962511c75aa5e11","fromSide":"right","toNode":"ff6db7e679ad9a50","toSide":"left"}
+	]
+}

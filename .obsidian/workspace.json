@@ -4,21 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "cda31ed1aca68113",
+        "id": "011964745d6d47fb",
         "type": "tabs",
         "children": [
           {
-            "id": "e60599f39b9564ac",
+            "id": "b20c648a33741da7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Classe de Premiere/Exo/Champ.md",
+                "file": "Classe Internationale Américaine/Livre/The handmaid's tail/Reading notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Champ"
+              "title": "Reading notes"
+            }
+          },
+          {
+            "id": "7ad90806953f860e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Classe Internationale Américaine/Livre/The handmaid's tail/Characters.canvas",
+                "viewState": {
+                  "x": 117.00161572283906,
+                  "y": 355.96208784398476,
+                  "zoom": -0.3042902983120147
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Characters"
+            }
+          },
+          {
+            "id": "41ac492ca71ac53f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Habits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Habits"
             }
           }
         ]
@@ -40,7 +71,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 322.5086555480957
   },
   "right": {
     "id": "2d724db13e4da7df",
@@ -162,50 +194,58 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e60599f39b9564ac",
+  "active": "b20c648a33741da7",
   "lastOpenFiles": [
-    "History-geography/History/Unit 2/Chapter 1 Difficult birth of democracy/1) A- Establishment of the Democracy.md",
-    "Physique-Chimie/Classe de Premiere/Exo/Champ.md",
-    "History-geography/History/Unit 2/Chapter 1 Difficult birth of democracy/2) B- Authoritarian regime.md",
-    "History-geography/History/Unit 2/Chapter 1 Difficult birth of democracy/2) -A Establishment of the second Empire.md",
-    "History-geography/History/Unit 2/Chapter 1 Difficult birth of democracy/1) C- End of Second Republic.md",
-    "History-geography/History/Unit 2/Chapter 1 Difficult birth of democracy/1) B- Difficulties to overcome tensions.md",
-    "Physique-Chimie/Classe de Premiere/Exo/Avancement.md",
-    "History-geography/History/Unit 2/Chapter 2 The American Civil War",
-    "History-geography/History/Unit 2/Chapter 1 Difficult birth of democracy",
-    "History-geography/History/Unit 2",
+    "Classe Internationale Américaine/Livre/The handmaid's tail/Characters.canvas",
+    "Classe Internationale Américaine/Livre/The handmaid's tail/Reading notes.md",
+    "Habits.md",
+    "Math/Mathraining/Théorie des nombres/4) Théorème d'Euler-Fermat (et indicatrice d'Euler).md",
+    "Math/Mathraining/Théorie des nombres/3) Arithmétique et équations modulaires.md",
+    "Math/Mathraining/Logique mathématique.md",
+    "Math/Mathraining/Ensembles.md",
+    "Math/Terminale suites.pdf",
+    "Math/Exercices journaliers.md",
+    "Classe Internationale Américaine/Livre/The handmaid's tail",
+    "662cfbe9a5fd67fafda9ef04_DOC PREPA (5).pdf",
+    "Français/Oral.md",
+    "LaTeX.md",
+    "Français/Théâtre/Essai.md",
+    "Français/Littérature d'idée/Essai.md",
+    "Français/Théâtre",
+    "Français/Untitled.md",
+    "Français/Poésie/Essai.md",
+    "Français/Roman/Essai.md",
+    "Math/Mathraining/Théorie des nombres/2) Algorithme d'Euclide.md",
+    "Entrainement mathématique.md",
+    "Après le lycée.md",
+    "Math/Mathraining/Théorie des nombres/1) Divisibilité et nombres premiers.md",
+    "Math/Mathraining/Preuves.md",
+    "Math/Mathraining/Théorie des nombres",
+    "Math/Mathraining/Théorie des nombres.md",
+    "Français/Théâtre.md",
+    "Prépa.md",
+    "Math/Mathraining",
+    "Math/Sommes et produits.md",
+    "Français/Poésie/Poésie et versification.md",
+    "Français/Poésie/Vocabulaire.md",
+    "LaTeX.canvas",
+    "Math/Classe de Terminale/Preuves",
+    "Image/encadrement intégral avec rectangle.png",
+    "Image/Pasted image 20240807155619.png",
+    "Image/Pasted image 20240807095342.png",
+    "Projet programmation/Computer.canvas",
+    "Math/Classe de Terminale/Primitives et équation différentiel.canvas",
+    "Math/Classe de Terminale/Exo",
+    "Math/Classe de Terminale",
+    "History-geography/History/Unit 3/Chapter 1 Implementation of the Frecnh Republican Regime",
+    "Code de la route/Panneau.canvas",
+    "Untitled.canvas",
     "History-geography/History/Unit 1 Revolutions in Europe/Chapter 2 Europe betweend Restoration and Revolution/Constitutional monarchy.canvas",
     "History-geography/History/Unit 1 Revolutions in Europe/Chapter 2 Europe betweend Restoration and Revolution/Congress of Vienna, purpose and consequences.canvas",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 2 Europe betweend Restoration and Revolution/B- New monarchical order in Europe + The will to buid a lasting peace.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 2 Europe betweend Restoration and Revolution/A- The Restoration of Monarchy in France.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 2 Europe betweend Restoration and Revolution/A- Romanticism and liberalism in Europe.md",
     "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/Mindmap separation of power.canvas",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/C- The fragility of the Napoleonic Empire.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/C- The Terror.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/B- The legacy of the Revolution under Napoleon's rule.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/B- The first republic at war.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/B- The French Revolution of 1789.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/A- The end of the French Revolution.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/A- Conditions prior to the French Revolution.md",
     "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/A- Conditions prior to the French Revolution (sum up).canvas",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire/A- A new political regime.md",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 2 Europe betweend Restoration and Revolution",
-    "History-geography/History/Unit 1 Revolutions in Europe/Chapter 1 French revolution and the Napoleonic Empire",
-    "History-geography/History/Unit 1 Revolutions in Europe",
-    "History-geography/History",
-    "History-geography/Geography",
-    "Connaissance du monde/Thoreau.md",
-    "Physique-Chimie/Classe de Premiere/Mole.canvas",
-    "Classe Internationale Américaine/Livre/The glass menagerie/Memory.md",
-    "Classe Internationale Américaine/Livre/The glass menagerie/Vocab+Idioms.md",
-    "Classe Internationale Américaine/Livre/The glass menagerie/The Great Depression.md",
-    "Classe Internationale Américaine/Livre/The glass menagerie/Stage direction+Tom's monologue.md",
-    "Classe Internationale Américaine/Livre/The glass menagerie/American Dream.md",
-    "Classe Internationale Américaine/Livre/The glass menagerie/Story.md",
-    "Classe Internationale Américaine/Livre/The glass menagerie/Overview.md",
     "Image/Angle trigo.png",
     "Image/sin et cos.png",
-    "Image/cercle trigo.png",
-    "Image/lu25947j2ovd.tmp"
+    "Image/cercle trigo.png"
   ]
 }

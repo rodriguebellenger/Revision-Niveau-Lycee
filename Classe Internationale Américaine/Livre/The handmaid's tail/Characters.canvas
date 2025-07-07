@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"4af92ac532f87084","type":"text","text":"Main character (Offred?)","x":-120,"y":-20,"width":250,"height":60},
+		{"id":"5fdfd62d2e684344","type":"text","text":"Serena Joy (Commander's Wife)\nBefore, she was the lead soprano of a religious emission","x":-193,"y":-215,"width":323,"height":90},
+		{"id":"c097a69a375e5f81","type":"text","text":"Nick (driver)","x":-600,"y":-20,"width":250,"height":60},
+		{"id":"af432bf1c3a38bd0","type":"text","text":"Aunt Lydia (a Guardian)","x":-600,"y":95,"width":250,"height":60},
+		{"id":"c1ae71f38ef7e45a","type":"text","text":"Rita (a Martha)","x":-600,"y":-130,"width":250,"height":60},
+		{"id":"fed8d98fe7b72c92","type":"text","text":"Cora (a Martha)","x":-600,"y":-250,"width":250,"height":60},
+		{"id":"036c5dfec5c37d80","type":"text","text":"Ofglen (a Handmaid)","x":-600,"y":220,"width":250,"height":60},
+		{"id":"f9798a9e32cf4627","type":"text","text":"Luke (a friend/lover/husband in the past)","x":-490,"y":360,"width":316,"height":60},
+		{"id":"21a5352f028aad2c","type":"text","text":"Moira (a friend in the past, but lost contact)","x":-120,"y":360,"width":250,"height":60},
+		{"id":"b9f98a632b2cef82","x":160,"y":360,"width":250,"height":60,"type":"text","text":"Mother"}
+	],
+	"edges":[
+		{"id":"09cd76cc00cc2666","fromNode":"4af92ac532f87084","fromSide":"left","toNode":"fed8d98fe7b72c92","toSide":"right","label":"~friends"},
+		{"id":"ad1d1e1596cb72d2","fromNode":"4af92ac532f87084","fromSide":"left","toNode":"c1ae71f38ef7e45a","toSide":"right","label":"~friends"},
+		{"id":"f3f852564543f763","fromNode":"4af92ac532f87084","fromSide":"left","toNode":"c097a69a375e5f81","toSide":"right","label":"saw"},
+		{"id":"2e6f076195d9e9f4","fromNode":"4af92ac532f87084","fromSide":"top","toNode":"5fdfd62d2e684344","toSide":"bottom"},
+		{"id":"b5261fd4d8ba1dc6","fromNode":"4af92ac532f87084","fromSide":"left","toNode":"af432bf1c3a38bd0","toSide":"right","label":"educated"},
+		{"id":"a796eeaab7e97c98","fromNode":"4af92ac532f87084","fromSide":"left","toNode":"036c5dfec5c37d80","toSide":"right","label":"duo to the\ngrocery"},
+		{"id":"529a9f9418957668","fromNode":"4af92ac532f87084","fromSide":"bottom","toNode":"f9798a9e32cf4627","toSide":"top"},
+		{"id":"d6457f7ae50a2882","fromNode":"4af92ac532f87084","fromSide":"bottom","toNode":"21a5352f028aad2c","toSide":"top"},
+		{"id":"370eab6217cc6975","fromNode":"4af92ac532f87084","fromSide":"bottom","toNode":"b9f98a632b2cef82","toSide":"top"}
+	]
+}
